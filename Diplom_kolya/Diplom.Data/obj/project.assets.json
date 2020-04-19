@@ -2018,23 +2018,6 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Diplom.Data/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Diplom.Domain": "1.0.0",
-          "Diplom.Models": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "3.1.3",
-          "Microsoft.EntityFrameworkCore.Proxies": "3.1.3",
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3"
-        },
-        "compile": {
-          "bin/placeholder/Diplom.Data.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Diplom.Data.dll": {}
-        }
-      },
       "Diplom.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -7026,11 +7009,6 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "Diplom.Data/1.0.0": {
-      "type": "project",
-      "path": "../Diplom.Data/Diplom.Data.csproj",
-      "msbuildProject": "../Diplom.Data/Diplom.Data.csproj"
-    },
     "Diplom.Domain/1.0.0": {
       "type": "project",
       "path": "../Diplom.Domain/Diplom.Domain.csproj",
@@ -7044,8 +7022,11 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Diplom.Data >= 1.0.0",
-      "Microsoft.EntityFrameworkCore >= 3.1.3"
+      "Diplom.Domain >= 1.0.0",
+      "Diplom.Models >= 1.0.0",
+      "Microsoft.EntityFrameworkCore >= 3.1.3",
+      "Microsoft.EntityFrameworkCore.Proxies >= 3.1.3",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.3"
     ]
   },
   "packageFolders": {
@@ -7055,11 +7036,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\petrs\\OneDrive\\Рабочий стол\\DoplomKolya\\Diplom_kolya\\Diplom_kolya\\Diplom_kolya.csproj",
-      "projectName": "Diplom_kolya",
-      "projectPath": "C:\\Users\\petrs\\OneDrive\\Рабочий стол\\DoplomKolya\\Diplom_kolya\\Diplom_kolya\\Diplom_kolya.csproj",
+      "projectUniqueName": "C:\\Users\\petrs\\OneDrive\\Рабочий стол\\DoplomKolya\\Diplom_kolya\\Diplom.Data\\Diplom.Data.csproj",
+      "projectName": "Diplom.Data",
+      "projectPath": "C:\\Users\\petrs\\OneDrive\\Рабочий стол\\DoplomKolya\\Diplom_kolya\\Diplom.Data\\Diplom.Data.csproj",
       "packagesPath": "C:\\Users\\petrs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\petrs\\OneDrive\\Рабочий стол\\DoplomKolya\\Diplom_kolya\\Diplom_kolya\\obj\\",
+      "outputPath": "C:\\Users\\petrs\\OneDrive\\Рабочий стол\\DoplomKolya\\Diplom_kolya\\Diplom.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7078,8 +7059,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\petrs\\OneDrive\\Рабочий стол\\DoplomKolya\\Diplom_kolya\\Diplom.Data\\Diplom.Data.csproj": {
-              "projectPath": "C:\\Users\\petrs\\OneDrive\\Рабочий стол\\DoplomKolya\\Diplom_kolya\\Diplom.Data\\Diplom.Data.csproj"
+            "C:\\Users\\petrs\\OneDrive\\Рабочий стол\\DoplomKolya\\Diplom_kolya\\Diplom.Domain\\Diplom.Domain.csproj": {
+              "projectPath": "C:\\Users\\petrs\\OneDrive\\Рабочий стол\\DoplomKolya\\Diplom_kolya\\Diplom.Domain\\Diplom.Domain.csproj"
+            },
+            "C:\\Users\\petrs\\OneDrive\\Рабочий стол\\DoplomKolya\\Diplom_kolya\\Diplom.Models\\Diplom.Models.csproj": {
+              "projectPath": "C:\\Users\\petrs\\OneDrive\\Рабочий стол\\DoplomKolya\\Diplom_kolya\\Diplom.Models\\Diplom.Models.csproj"
             }
           }
         }
@@ -7094,6 +7078,14 @@
       "netcoreapp3.1": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[3.1.3, )"
+          },
+          "Microsoft.EntityFrameworkCore.Proxies": {
+            "target": "Package",
+            "version": "[3.1.3, )"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[3.1.3, )"
           }
