@@ -28,6 +28,7 @@ namespace Diplom_kolya
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContexts(Configuration);
+            services.AddServices();
             services.AddControllers();
         }
 

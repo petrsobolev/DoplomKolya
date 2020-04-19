@@ -1,4 +1,6 @@
 ﻿using Diplom.Data;
+using Diplom.Data.Repository;
+using Diplom.Domain.Contracts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -13,6 +15,10 @@ namespace Diplom_kolya.Extensions
                 options
                     .UseLazyLoadingProxies()
                     .UseSqlServer(configuration.GetConnectionString("AzureStorage")), ServiceLifetime.Scoped);
+        }
+        public static void AddServices(this IServiceCollection services)
+        {
+            services.AddTransient(typeof(IRepository<>), typeof(BaseRepository<>));
         }
     }
 }
