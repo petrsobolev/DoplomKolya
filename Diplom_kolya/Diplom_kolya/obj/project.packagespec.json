@@ -18,7 +18,11 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "C:\\Users\\petrs\\OneDrive\\Рабочий стол\\DoplomKolya\\Diplom_kolya\\Diplom.Data\\Diplom.Data.csproj": {
+            "projectPath": "C:\\Users\\petrs\\OneDrive\\Рабочий стол\\DoplomKolya\\Diplom_kolya\\Diplom.Data\\Diplom.Data.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
@@ -29,6 +33,12 @@
   },
   "frameworks": {
     "netcoreapp3.1": {
+      "dependencies": {
+        "Microsoft.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[3.1.3, )"
+        }
+      },
       "imports": [
         "net461",
         "net462",
