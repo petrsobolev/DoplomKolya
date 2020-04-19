@@ -1,0 +1,44 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\petrs\\OneDrive\\Рабочий стол\\DoplomKolya\\Diplom_kolya\\Diplom_kolya\\Diplom_kolya.csproj",
+    "projectName": "Diplom_kolya",
+    "projectPath": "C:\\Users\\petrs\\OneDrive\\Рабочий стол\\DoplomKolya\\Diplom_kolya\\Diplom_kolya\\Diplom_kolya.csproj",
+    "outputPath": "C:\\Users\\petrs\\OneDrive\\Рабочий стол\\DoplomKolya\\Diplom_kolya\\Diplom_kolya\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
