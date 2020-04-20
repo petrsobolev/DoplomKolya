@@ -1,0 +1,12 @@
+C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom.Domain\obj\Debug\netcoreapp3.1\Diplom.Domain.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom.Domain\obj\Debug\netcoreapp3.1\Diplom.Domain.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom.Domain\obj\Debug\netcoreapp3.1\Diplom.Domain.AssemblyInfo.cs
+C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom.Domain\bin\Debug\netcoreapp3.1\Diplom.Domain.deps.json
+C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom.Domain\bin\Debug\netcoreapp3.1\Diplom.Domain.dll
+C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom.Domain\bin\Debug\netcoreapp3.1\Diplom.Domain.pdb
+C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom.Domain\bin\Debug\netcoreapp3.1\Diplom.Models.dll
+C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom.Domain\bin\Debug\netcoreapp3.1\Diplom.Models.pdb
+C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom.Domain\obj\Debug\netcoreapp3.1\Diplom.Domain.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom.Domain\obj\Debug\netcoreapp3.1\Diplom.Domain.csproj.CopyComplete
+C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom.Domain\obj\Debug\netcoreapp3.1\Diplom.Domain.dll
+C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom.Domain\obj\Debug\netcoreapp3.1\Diplom.Domain.pdb

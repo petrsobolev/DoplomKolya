@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Diplom.Domain/1.0.0": {
+        "dependencies": {
+          "Diplom.Models": "1.0.0"
+        },
+        "runtime": {
+          "Diplom.Domain.dll": {}
+        }
+      },
+      "Diplom.Models/1.0.0": {
+        "runtime": {
+          "Diplom.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Diplom.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Diplom.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

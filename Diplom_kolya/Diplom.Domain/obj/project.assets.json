@@ -27,23 +27,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\petrs\\.nuget\\packages\\": {},
+    "C:\\Users\\USER\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\petrs\\OneDrive\\Рабочий стол\\DoplomKolya\\Diplom_kolya\\Diplom.Domain\\Diplom.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom.Domain\\Diplom.Domain.csproj",
       "projectName": "Diplom.Domain",
-      "projectPath": "C:\\Users\\petrs\\OneDrive\\Рабочий стол\\DoplomKolya\\Diplom_kolya\\Diplom.Domain\\Diplom.Domain.csproj",
-      "packagesPath": "C:\\Users\\petrs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\petrs\\OneDrive\\Рабочий стол\\DoplomKolya\\Diplom_kolya\\Diplom.Domain\\obj\\",
+      "projectPath": "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom.Domain\\Diplom.Domain.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\petrs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -56,8 +56,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\petrs\\OneDrive\\Рабочий стол\\DoplomKolya\\Diplom_kolya\\Diplom.Models\\Diplom.Models.csproj": {
-              "projectPath": "C:\\Users\\petrs\\OneDrive\\Рабочий стол\\DoplomKolya\\Diplom_kolya\\Diplom.Models\\Diplom.Models.csproj"
+            "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom.Models\\Diplom.Models.csproj": {
+              "projectPath": "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom.Models\\Diplom.Models.csproj"
             }
           }
         }
@@ -79,7 +79,13 @@
           "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

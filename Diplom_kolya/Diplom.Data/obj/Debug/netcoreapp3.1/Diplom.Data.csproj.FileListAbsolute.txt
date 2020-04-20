@@ -6,3 +6,17 @@ C:\Users\petrs\OneDrive\Рабочий стол\DoplomKolya\Diplom_kolya\Diplom.
 C:\Users\petrs\OneDrive\Рабочий стол\DoplomKolya\Diplom_kolya\Diplom.Data\obj\Debug\netcoreapp3.1\Diplom.Data.AssemblyInfo.cs
 C:\Users\petrs\OneDrive\Рабочий стол\DoplomKolya\Diplom_kolya\Diplom.Data\obj\Debug\netcoreapp3.1\Diplom.Data.dll
 C:\Users\petrs\OneDrive\Рабочий стол\DoplomKolya\Diplom_kolya\Diplom.Data\obj\Debug\netcoreapp3.1\Diplom.Data.pdb
+C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom.Data\obj\Debug\netcoreapp3.1\Diplom.Data.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom.Data\obj\Debug\netcoreapp3.1\Diplom.Data.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom.Data\obj\Debug\netcoreapp3.1\Diplom.Data.AssemblyInfo.cs
+C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom.Data\bin\Debug\netcoreapp3.1\Diplom.Data.deps.json
+C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom.Data\bin\Debug\netcoreapp3.1\Diplom.Data.dll
+C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom.Data\bin\Debug\netcoreapp3.1\Diplom.Data.pdb
+C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom.Data\bin\Debug\netcoreapp3.1\Diplom.Domain.dll
+C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom.Data\bin\Debug\netcoreapp3.1\Diplom.Models.dll
+C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom.Data\bin\Debug\netcoreapp3.1\Diplom.Domain.pdb
+C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom.Data\bin\Debug\netcoreapp3.1\Diplom.Models.pdb
+C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom.Data\obj\Debug\netcoreapp3.1\Diplom.Data.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom.Data\obj\Debug\netcoreapp3.1\Diplom.Data.csproj.CopyComplete
+C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom.Data\obj\Debug\netcoreapp3.1\Diplom.Data.dll
+C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom.Data\obj\Debug\netcoreapp3.1\Diplom.Data.pdb
