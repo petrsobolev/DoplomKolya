@@ -2,7 +2,14 @@
 # Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
 ################################################################################
 
-/Diplom_kolya/.vs/Diplom_kolya/v15/Server/sqlite3/storage.ide-wal
-/Diplom_kolya/.vs/Diplom_kolya/v15/Server/sqlite3/storage.ide-shm
-/Diplom_kolya/.vs/Diplom_kolya/v15/Server/sqlite3/storage.ide
-/Diplom_kolya/.vs/Diplom_kolya/v15/Server/sqlite3/db.lock
+
+/Diplom_kolya/Diplom.Models/obj/Debug/netcoreapp3.1/Diplom.Models.csprojAssemblyReference.cache
+/Diplom_kolya/Diplom.Models/obj/Debug/netcoreapp3.1
+/Diplom_kolya/Diplom.Domain/obj/Debug/netcoreapp3.1/Diplom.Domain.csprojAssemblyReference.cache
+/Diplom_kolya/Diplom.Domain/obj/Debug/netcoreapp3.1
+/Diplom_kolya/.vs/Diplom_kolya/v16/Server/sqlite3/storage.ide-wal
+/Diplom_kolya/.vs/Diplom_kolya/v16/Server/sqlite3/storage.ide-shm
+/Diplom_kolya/.vs/Diplom_kolya/v16/Server/sqlite3/storage.ide
+/Diplom_kolya/.vs/Diplom_kolya/v16/Server/sqlite3/db.lock
+/Diplom_kolya/.vs/Diplom_kolya/v16/Server/sqlite3
+/Diplom_kolya
