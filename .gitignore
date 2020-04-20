@@ -2,6 +2,7 @@
 # Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
 ################################################################################
 
+
 /Diplom_kolya/Diplom.Models/obj/Debug/netcoreapp3.1/Diplom.Models.csprojAssemblyReference.cache
 /Diplom_kolya/Diplom.Models/obj/Debug/netcoreapp3.1
 /Diplom_kolya/Diplom.Domain/obj/Debug/netcoreapp3.1/Diplom.Domain.csprojAssemblyReference.cache
