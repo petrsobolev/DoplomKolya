@@ -16,6 +16,7 @@ using Microsoft.Extensions.Logging;
 
 namespace Diplom_kolya
 {
+    
     public class Startup
     {
         public Startup(IConfiguration configuration)
@@ -30,6 +31,8 @@ namespace Diplom_kolya
             services.AddDbContexts(Configuration);
             services.AddServices();
             services.AddControllers();
+            services.AddCors();
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -40,10 +43,29 @@ namespace Diplom_kolya
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseCors(builder=>
+            {
+                builder.AllowAnyOrigin();
+                builder.AllowAnyMethod();
+                builder.AllowAnyHeader();
+
+            });
+
+            app.Use((context, next) =>
+            {
+                
+                context.Request.Headers["Allow"] = "GET,POST,PUT,DELETE,OPTIONS";
+                //context.Request.Headers["Access-Control-Allow-Origin"] = "GET,POST,PUT,DELETE,OPTIONS";
+                context.Request.ContentType = "application/json";
+                context.Response.ContentType = "application/json";
+
+                return next.Invoke();
+            });
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
+      
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });

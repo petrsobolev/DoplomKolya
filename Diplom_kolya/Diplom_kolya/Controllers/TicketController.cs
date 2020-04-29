@@ -30,10 +30,12 @@ namespace Diplom_kolya.Controllers
         }
 
         [HttpPost]
-        public ActionResult createTicket([FromBody] Tickets ticket)
+        public async Task<ActionResult> createTicket([FromBody] Tickets ticket)
         {
             try {
-                _dbContext.tickets.Add(ticket);
+
+                _dbContext.ticket.Add(ticket);
+                await _dbContext.SaveChangesAsync();
                 return Ok();
             }
             catch
@@ -43,31 +45,37 @@ namespace Diplom_kolya.Controllers
           
         }
 
-        [HttpPut]
-        public object checkedTicket([FromBody] string email, int tickedId)
+        [HttpPost]
+        public dynamic checkedTicket([FromBody] Tickets checkTicket)
         {
-            var currentUser = _dbContext.users.FirstOrDefault(x => x.email == email);
-            var hasCurrentTicket = currentUser.tickets.Where(x => x.id == tickedId);
+            Tickets hasCurrentTicket = _dbContext.ticket.FirstOrDefault(ticket => ticket.id == checkTicket.id);
+            var untilDate = hasCurrentTicket.endDateTime - hasCurrentTicket.buyDateTime;
             if(hasCurrentTicket == null)
             {
                 return BadRequest();
             }
             else
             {
-                if (hasCurrentTicket.FirstOrDefault().isValid)
+                if (untilDate >0)
                 {
                     var isValidResponse = new IsValidResponse();
                     isValidResponse.isValid = true;
                     isValidResponse.message = "Успешно проверено";
                     return isValidResponse;
                 }
-                else
+                else if(untilDate <=0)
                 {
+                    hasCurrentTicket.isValid = false;
+                    _dbContext.ticket.Update(hasCurrentTicket);
                     var isValidResponse = new IsValidResponse();
                     isValidResponse.isValid = false;
                     isValidResponse.message = "Билет не валдиный";
                     return isValidResponse;
               
+                }
+                else
+                {
+                    return BadRequest();
                 }
             }
         }

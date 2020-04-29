@@ -6,11 +6,12 @@ namespace Diplom.Models.Entities
 {
     public class Tickets :BaseEntity
     {
-        public string dateTime { get; set; }
-        public int userId { get; set; }
-        public User user { get; set; }
+        public long endDateTime { get; set; }
+        public long buyDateTime { get; set; }
+        public int creditCardId { get; set; }
+        public virtual CreditCard card { get; set; }
         public int transportId { get; set; }
-        public Transport Transport { get; set; }
+        public virtual Transport Transport { get; set; }
         public bool isValid { get; set; }
     }
 }

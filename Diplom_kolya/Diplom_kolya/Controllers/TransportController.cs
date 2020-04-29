@@ -15,24 +15,22 @@ namespace Diplom_kolya.Controllers
     [ApiController]
     public class TransportController : ControllerBase
     {
-        private readonly ILogger<TransportController> _logger;
         private ApplicationDbContext _dbContext;
-        private IRepository<Transport> _crediCarRepository;
 
         public TransportController(ILogger<TransportController> logger
         , ApplicationDbContext dbContext
         , IRepository<Transport> userRepository)
         {
             _dbContext = dbContext;
-            _logger = logger;
-            _crediCarRepository = userRepository;
         }
 
-        [HttpGet("{routeType}")]
-        public object getTransportByType([FromRoute] string routeType)
+        [HttpGet("{transport}")]
+        public dynamic getTransportByType([FromRoute] string transport)
         {
-            var transportByType = _dbContext.transports.Where(x => x.routeType == routeType).ToList();
+            List<Transport> transportByType = _dbContext.transport.Where(x => x.transport == transport).ToList();
             return transportByType;
         }
+
+      
     }
 }
