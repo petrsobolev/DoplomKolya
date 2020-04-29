@@ -29,7 +29,7 @@ namespace Diplom_kolya.Controllers
         }
 
         [HttpPost]
-        public ActionResult createCreditCard([FromBody] string email, CreditCard creditCard)
+        public async Task<dynamic> createCreditCard([FromBody] CreditCard creditCard)
         {
             if (!ModelState.IsValid)
             {
@@ -37,10 +37,49 @@ namespace Diplom_kolya.Controllers
             }
             else
             {
-                var currentUser = _dbContext.users.FirstOrDefault(x => x.email == email);
-                creditCard.user = currentUser;
-                _dbContext.creditCards.Add(creditCard);
-                return Ok();
+                _dbContext.creditCard.Add(creditCard);
+                await _dbContext.SaveChangesAsync();
+                return creditCard;
+            }
+        }
+
+        [HttpDelete ("{id}")]
+        public async Task<dynamic> deleteCreditCard([FromRoute] int cardId)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+            else
+            {
+                var currentCreditCard = _dbContext.creditCard.FirstOrDefault(card => card.id == cardId);
+                if(currentCreditCard == null)
+                {
+                    return BadRequest();
+
+                }
+                else
+                {
+                    _dbContext.creditCard.Remove(currentCreditCard);
+                    await _dbContext.SaveChangesAsync();
+                    return Ok("Vse ok");
+                }
+
+
+            }
+        }
+
+        [HttpPost]
+        public dynamic getUserCreditCards([FromBody] PhoneNumber phoneNumber)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+            else
+            {
+                var cards = _dbContext.creditCard.Where(cards => cards.phoneNumber == phoneNumber.phoneNumber);
+                return cards;
             }
         }
 

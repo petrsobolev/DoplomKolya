@@ -151,3 +151,5 @@ C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom_kolya\obj\Rel
 C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom_kolya\obj\Release\netcoreapp3.1\Diplom_kolya.dll
 C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom_kolya\obj\Release\netcoreapp3.1\Diplom_kolya.pdb
 C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom_kolya\obj\Release\netcoreapp3.1\Diplom_kolya.genruntimeconfig.cache
+C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom_kolya\bin\Release\netcoreapp3.1\routes.json
+C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom_kolya\bin\Release\netcoreapp3.1\stops.json

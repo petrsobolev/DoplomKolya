@@ -2,7 +2,9 @@
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Collections.Immutable;
 using System.IO;
+using System.Linq;
 using System.Text.Json;
 
 namespace Diplom.Data
@@ -12,31 +14,12 @@ namespace Diplom.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
-            Database.EnsureCreated();  
+            Database.EnsureCreated();
         }
 
+        public DbSet<CreditCard> creditCard { get; set; }
+        public DbSet<Tickets> ticket { get; set; }
+        public DbSet<Transport> transport { get; set; }
 
-        public DbSet<User> users;
-        public DbSet<CreditCard> creditCards;
-        public DbSet<Tickets> tickets;
-        public DbSet<Transport> transports;
-        public DbSet<TransportStops> TransportStops;
-        
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            using (StreamReader fs = new StreamReader("routes.json"))
-            {
-                var json = fs.ReadToEnd();
-                List<Transport> jsonTransport = JsonSerializer.Deserialize<List<Transport>>(json);
-                modelBuilder.Entity<Transport>().HasData(jsonTransport);
-            }
-            using (StreamReader fs = new StreamReader("stops.json"))
-            {
-                var json = fs.ReadToEnd();
-                List<TransportStops> jsonTransportStop = JsonSerializer.Deserialize<List<TransportStops>>(json);
-                modelBuilder.Entity<TransportStops>().HasData(jsonTransportStop);
-            }
-
-        }
     }
 }
