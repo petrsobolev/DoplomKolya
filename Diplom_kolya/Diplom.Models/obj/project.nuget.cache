@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mWTh7yRQ+v8pEcn5OMxMeOk0oEXlz3qTrHr/LQ4sWaapqaCBnmmUdyNKLnLBB2PoIUrb0U4CElUiI37txQqfZg==",
+  "dgSpecHash": "bRU2Ouvzn8A4fk/AnDifUK8V7Yn9ser9LazNcYcy6iQ1So5i3R8QRRf0LKKTvPgM9WbdGP9FcyQZrcR1J7ev1g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom.Models\\Diplom.Models.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Desktop\\diplom\\DoplomKolya\\Diplom_kolya\\Diplom.Models\\Diplom.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
