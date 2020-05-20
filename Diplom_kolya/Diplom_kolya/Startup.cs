@@ -53,12 +53,8 @@ namespace Diplom_kolya
 
             app.Use((context, next) =>
             {
-                
-                context.Request.Headers["Allow"] = "GET,POST,PUT,DELETE,OPTIONS";
-                //context.Request.Headers["Access-Control-Allow-Origin"] = "GET,POST,PUT,DELETE,OPTIONS";
-                context.Request.ContentType = "application/json";
-                context.Response.ContentType = "application/json";
-
+                context.Request.Headers["Content-Type"] = "application/json";
+                context.Response.Headers["Content-Type"] = "application/json";
                 return next.Invoke();
             });
 

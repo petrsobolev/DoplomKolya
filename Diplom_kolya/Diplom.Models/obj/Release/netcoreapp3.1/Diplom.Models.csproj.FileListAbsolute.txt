@@ -7,3 +7,12 @@ C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom.Models\obj\Re
 C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom.Models\obj\Release\netcoreapp3.1\Diplom.Models.dll
 C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom.Models\obj\Release\netcoreapp3.1\Diplom.Models.pdb
 C:\Users\USER\Desktop\диплом\DoplomKolya\Diplom_kolya\Diplom.Models\obj\Release\netcoreapp3.1\Diplom.Models.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\diplom\DoplomKolya\Diplom_kolya\Diplom.Models\bin\Release\netcoreapp3.1\Diplom.Models.deps.json
+C:\Users\USER\Desktop\diplom\DoplomKolya\Diplom_kolya\Diplom.Models\bin\Release\netcoreapp3.1\Diplom.Models.dll
+C:\Users\USER\Desktop\diplom\DoplomKolya\Diplom_kolya\Diplom.Models\bin\Release\netcoreapp3.1\Diplom.Models.pdb
+C:\Users\USER\Desktop\diplom\DoplomKolya\Diplom_kolya\Diplom.Models\obj\Release\netcoreapp3.1\Diplom.Models.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\diplom\DoplomKolya\Diplom_kolya\Diplom.Models\obj\Release\netcoreapp3.1\Diplom.Models.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\diplom\DoplomKolya\Diplom_kolya\Diplom.Models\obj\Release\netcoreapp3.1\Diplom.Models.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\diplom\DoplomKolya\Diplom_kolya\Diplom.Models\obj\Release\netcoreapp3.1\Diplom.Models.AssemblyInfo.cs
+C:\Users\USER\Desktop\diplom\DoplomKolya\Diplom_kolya\Diplom.Models\obj\Release\netcoreapp3.1\Diplom.Models.dll
+C:\Users\USER\Desktop\diplom\DoplomKolya\Diplom_kolya\Diplom.Models\obj\Release\netcoreapp3.1\Diplom.Models.pdb

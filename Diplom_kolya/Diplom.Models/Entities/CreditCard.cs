@@ -1,16 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.Json.Serialization;
 
 namespace Diplom.Models.Entities
 {
     public class CreditCard:BaseEntity
     {
-        public string phoneNumber { get; set; }
-        public string name { get; set; }
-        public int number { get; set; }
+        public string userPhone { get; set; }
+        public string number { get; set; }
         public string validity { get; set; }
-        public int CVC { get; set; }
-        
+        public string paymentPassword { get; set; }
+        public int cvc { get; set; }
+        [JsonIgnore]
+        public virtual List<Tickets> tickets { get; set; }
     }
 }

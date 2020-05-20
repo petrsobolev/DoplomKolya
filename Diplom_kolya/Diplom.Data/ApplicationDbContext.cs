@@ -18,8 +18,24 @@ namespace Diplom.Data
         }
 
         public DbSet<CreditCard> creditCard { get; set; }
-        public DbSet<Tickets> ticket { get; set; }
+        public DbSet<Tickets> tickets { get; set; }
         public DbSet<Transport> transport { get; set; }
 
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Tickets>()
+                .HasOne(t => t.transport)
+                .WithMany(t => t.tickets)
+                .HasForeignKey(f => f.transportId);
+
+            modelBuilder.Entity<Tickets>()
+                .HasOne(c => c.card)
+                .WithMany(t => t.tickets)
+                .HasForeignKey(f => f.creditCardId);
+
+        }
     }
 }

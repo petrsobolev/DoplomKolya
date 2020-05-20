@@ -11,7 +11,7 @@ namespace Diplom.Models.Entities
         public int creditCardId { get; set; }
         public virtual CreditCard card { get; set; }
         public int transportId { get; set; }
-        public virtual Transport Transport { get; set; }
+        public virtual Transport transport { get; set; }
         public bool isValid { get; set; }
     }
 }

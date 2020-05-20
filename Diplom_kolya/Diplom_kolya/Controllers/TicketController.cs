@@ -32,52 +32,58 @@ namespace Diplom_kolya.Controllers
         [HttpPost]
         public async Task<ActionResult> createTicket([FromBody] Tickets ticket)
         {
-            try {
 
-                _dbContext.ticket.Add(ticket);
-                await _dbContext.SaveChangesAsync();
-                return Ok();
-            }
-            catch
+            var newTicket = new Tickets()
             {
-                return BadRequest();
-            }
+                card = _dbContext.creditCard.FirstOrDefault(i => i.id == ticket.card.id),
+                transport = _dbContext.transport.FirstOrDefault(t => t.id == ticket.transport.id),
+                endDateTime = ticket.endDateTime,
+                buyDateTime = ticket.buyDateTime,
+                isValid = ticket.isValid
+            };
+
+            _dbContext.tickets.Add(newTicket);
+            await _dbContext.SaveChangesAsync();
+            return Ok("Ticket was created");
           
         }
 
         [HttpPost]
+        [Route("check_ticket")]
         public dynamic checkedTicket([FromBody] Tickets checkTicket)
         {
-            Tickets hasCurrentTicket = _dbContext.ticket.FirstOrDefault(ticket => ticket.id == checkTicket.id);
-            var untilDate = hasCurrentTicket.endDateTime - hasCurrentTicket.buyDateTime;
-            if(hasCurrentTicket == null)
+            Tickets currentTicket = _dbContext.tickets.FirstOrDefault(ticket => ticket.id == checkTicket.id);
+            long currentTime = DateTimeOffset.Now.ToUnixTimeMilliseconds();
+            var untilDate = currentTicket.endDateTime - currentTime;
+            if(currentTicket == null)
             {
                 return BadRequest();
             }
             else
             {
                 if (untilDate >0)
-                {
-                    var isValidResponse = new IsValidResponse();
-                    isValidResponse.isValid = true;
-                    isValidResponse.message = "Успешно проверено";
-                    return isValidResponse;
+                    {
+                    return currentTicket;
                 }
                 else if(untilDate <=0)
                 {
-                    hasCurrentTicket.isValid = false;
-                    _dbContext.ticket.Update(hasCurrentTicket);
-                    var isValidResponse = new IsValidResponse();
-                    isValidResponse.isValid = false;
-                    isValidResponse.message = "Билет не валдиный";
-                    return isValidResponse;
-              
+                    currentTicket.isValid = false;
+                    _dbContext.tickets.Update(currentTicket);
+                    return currentTicket;
                 }
                 else
                 {
                     return BadRequest();
                 }
             }
+        }
+
+        [HttpGet ("{creditCardId}")]
+        public dynamic getUserTickets([FromRoute] int creditCardId)
+        {
+            var tickets = _dbContext.tickets.Where(item => item.creditCardId == creditCardId);
+            return tickets;
+                
         }
 
     }

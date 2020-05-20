@@ -1,13 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Net;
+using System.Net.Http;
 using System.Threading.Tasks;
 using Diplom.Data;
 using Diplom.Domain.Contracts;
 using Diplom.Models.Entities;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
+using Stripe;
 
 namespace Diplom_kolya.Controllers
 {
@@ -43,8 +46,24 @@ namespace Diplom_kolya.Controllers
             }
         }
 
-        [HttpDelete ("{id}")]
-        public async Task<dynamic> deleteCreditCard([FromRoute] int cardId)
+        [HttpPost]
+        [Route("user_card")]
+        public dynamic getUserCreditCards([FromBody] CustomerModel customerModel)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+            else      
+            {
+                var cards = _dbContext.creditCard.Where(cards => cards.userPhone == customerModel.userPhone && customerModel.paymentPasswrod == cards.paymentPassword);
+                return cards;
+            }
+        }
+       
+        [HttpDelete]
+        [Route("delete_card")]
+        public dynamic deleteCard([FromBody] CreditCard creditCard)
         {
             if (!ModelState.IsValid)
             {
@@ -52,25 +71,15 @@ namespace Diplom_kolya.Controllers
             }
             else
             {
-                var currentCreditCard = _dbContext.creditCard.FirstOrDefault(card => card.id == cardId);
-                if(currentCreditCard == null)
-                {
-                    return BadRequest();
-
-                }
-                else
-                {
-                    _dbContext.creditCard.Remove(currentCreditCard);
-                    await _dbContext.SaveChangesAsync();
-                    return Ok("Vse ok");
-                }
-
-
+                var cards = _dbContext.creditCard.Remove(creditCard);
+                _dbContext.SaveChanges();
+                return Ok();
             }
         }
 
-        [HttpPost]
-        public dynamic getUserCreditCards([FromBody] PhoneNumber phoneNumber)
+        [HttpGet("{phoneNumber}")]
+        [Route("is_exist")]
+        public dynamic isUserExist([FromRoute] string phoneNumber)
         {
             if (!ModelState.IsValid)
             {
@@ -78,8 +87,15 @@ namespace Diplom_kolya.Controllers
             }
             else
             {
-                var cards = _dbContext.creditCard.Where(cards => cards.phoneNumber == phoneNumber.phoneNumber);
-                return cards;
+                var cards = _dbContext.creditCard.FirstOrDefault(c => c.userPhone == phoneNumber);
+                if(cards != null)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
             }
         }
 

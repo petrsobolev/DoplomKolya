@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Bxv68wgry8LjB4tIE6yY8TgEBgF+seAMdbngun1WBF+BV3lewh54J1qGIbj192iBJ384rU/LeX+51uTDD28kGg==",
+  "dgSpecHash": "aO5Ema7ccbcOV94yhXw+Cst2wiI4Sg5ZP66C/RyCRjVJ7wnkI5OB3zQkFosudab/v1csEMxDLT+lwtRYGYWg6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom.Data\\Diplom.Data.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Desktop\\diplom\\DoplomKolya\\Diplom_kolya\\Diplom.Data\\Diplom.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",

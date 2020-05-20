@@ -1,11 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Diplom.Models",
     "\\Diplom.Models\\Entities",
-    "\\Diplom_kolya",
     "\\Diplom_kolya\\Controllers"
   ],
-  "SelectedNode": "\\Diplom_kolya\\Controllers\\UserController.cs",
   "PreviewInSolutionExplorer": false
 }

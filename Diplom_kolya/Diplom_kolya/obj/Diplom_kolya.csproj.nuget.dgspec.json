@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom_kolya\\Diplom_kolya.csproj": {}
+    "C:\\Users\\USER\\Desktop\\diplom\\DoplomKolya\\Diplom_kolya\\Diplom_kolya\\Diplom_kolya.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom.Data\\Diplom.Data.csproj": {
+    "C:\\Users\\USER\\Desktop\\diplom\\DoplomKolya\\Diplom_kolya\\Diplom.Data\\Diplom.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom.Data\\Diplom.Data.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\diplom\\DoplomKolya\\Diplom_kolya\\Diplom.Data\\Diplom.Data.csproj",
         "projectName": "Diplom.Data",
-        "projectPath": "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom.Data\\Diplom.Data.csproj",
+        "projectPath": "C:\\Users\\USER\\Desktop\\diplom\\DoplomKolya\\Diplom_kolya\\Diplom.Data\\Diplom.Data.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom.Data\\obj\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\diplom\\DoplomKolya\\Diplom_kolya\\Diplom.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,11 +30,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom.Domain\\Diplom.Domain.csproj": {
-                "projectPath": "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom.Domain\\Diplom.Domain.csproj"
+              "C:\\Users\\USER\\Desktop\\diplom\\DoplomKolya\\Diplom_kolya\\Diplom.Domain\\Diplom.Domain.csproj": {
+                "projectPath": "C:\\Users\\USER\\Desktop\\diplom\\DoplomKolya\\Diplom_kolya\\Diplom.Domain\\Diplom.Domain.csproj"
               },
-              "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom.Models\\Diplom.Models.csproj": {
-                "projectPath": "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom.Models\\Diplom.Models.csproj"
+              "C:\\Users\\USER\\Desktop\\diplom\\DoplomKolya\\Diplom_kolya\\Diplom.Models\\Diplom.Models.csproj": {
+                "projectPath": "C:\\Users\\USER\\Desktop\\diplom\\DoplomKolya\\Diplom_kolya\\Diplom.Models\\Diplom.Models.csproj"
               }
             }
           }
@@ -80,14 +80,14 @@
         }
       }
     },
-    "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom.Domain\\Diplom.Domain.csproj": {
+    "C:\\Users\\USER\\Desktop\\diplom\\DoplomKolya\\Diplom_kolya\\Diplom.Domain\\Diplom.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom.Domain\\Diplom.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\diplom\\DoplomKolya\\Diplom_kolya\\Diplom.Domain\\Diplom.Domain.csproj",
         "projectName": "Diplom.Domain",
-        "projectPath": "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom.Domain\\Diplom.Domain.csproj",
+        "projectPath": "C:\\Users\\USER\\Desktop\\diplom\\DoplomKolya\\Diplom_kolya\\Diplom.Domain\\Diplom.Domain.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom.Domain\\obj\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\diplom\\DoplomKolya\\Diplom_kolya\\Diplom.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -106,8 +106,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom.Models\\Diplom.Models.csproj": {
-                "projectPath": "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom.Models\\Diplom.Models.csproj"
+              "C:\\Users\\USER\\Desktop\\diplom\\DoplomKolya\\Diplom_kolya\\Diplom.Models\\Diplom.Models.csproj": {
+                "projectPath": "C:\\Users\\USER\\Desktop\\diplom\\DoplomKolya\\Diplom_kolya\\Diplom.Models\\Diplom.Models.csproj"
               }
             }
           }
@@ -139,14 +139,14 @@
         }
       }
     },
-    "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom.Models\\Diplom.Models.csproj": {
+    "C:\\Users\\USER\\Desktop\\diplom\\DoplomKolya\\Diplom_kolya\\Diplom.Models\\Diplom.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom.Models\\Diplom.Models.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\diplom\\DoplomKolya\\Diplom_kolya\\Diplom.Models\\Diplom.Models.csproj",
         "projectName": "Diplom.Models",
-        "projectPath": "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom.Models\\Diplom.Models.csproj",
+        "projectPath": "C:\\Users\\USER\\Desktop\\diplom\\DoplomKolya\\Diplom_kolya\\Diplom.Models\\Diplom.Models.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom.Models\\obj\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\diplom\\DoplomKolya\\Diplom_kolya\\Diplom.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -200,14 +200,14 @@
         }
       }
     },
-    "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom_kolya\\Diplom_kolya.csproj": {
+    "C:\\Users\\USER\\Desktop\\diplom\\DoplomKolya\\Diplom_kolya\\Diplom_kolya\\Diplom_kolya.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom_kolya\\Diplom_kolya.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\diplom\\DoplomKolya\\Diplom_kolya\\Diplom_kolya\\Diplom_kolya.csproj",
         "projectName": "Diplom_kolya",
-        "projectPath": "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom_kolya\\Diplom_kolya.csproj",
+        "projectPath": "C:\\Users\\USER\\Desktop\\diplom\\DoplomKolya\\Diplom_kolya\\Diplom_kolya\\Diplom_kolya.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom_kolya\\obj\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\diplom\\DoplomKolya\\Diplom_kolya\\Diplom_kolya\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -226,8 +226,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom.Data\\Diplom.Data.csproj": {
-                "projectPath": "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom.Data\\Diplom.Data.csproj"
+              "C:\\Users\\USER\\Desktop\\diplom\\DoplomKolya\\Diplom_kolya\\Diplom.Data\\Diplom.Data.csproj": {
+                "projectPath": "C:\\Users\\USER\\Desktop\\diplom\\DoplomKolya\\Diplom_kolya\\Diplom.Data\\Diplom.Data.csproj"
               }
             }
           }
@@ -257,7 +257,11 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[3.1.2, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[36.6.0, )"
             }
           },
           "imports": [

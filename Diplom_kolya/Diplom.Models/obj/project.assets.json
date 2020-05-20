@@ -58,11 +58,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom.Models\\Diplom.Models.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\diplom\\DoplomKolya\\Diplom_kolya\\Diplom.Models\\Diplom.Models.csproj",
       "projectName": "Diplom.Models",
-      "projectPath": "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom.Models\\Diplom.Models.csproj",
+      "projectPath": "C:\\Users\\USER\\Desktop\\diplom\\DoplomKolya\\Diplom_kolya\\Diplom.Models\\Diplom.Models.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\Desktop\\диплом\\DoplomKolya\\Diplom_kolya\\Diplom.Models\\obj\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\diplom\\DoplomKolya\\Diplom_kolya\\Diplom.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
